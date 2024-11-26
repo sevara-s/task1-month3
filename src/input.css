@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+.btn1 {
+  border-radius: 4px;
+  padding: 12px 24px;
+  background: #007db6;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #fff;
+  transition: 0.8s;
+}
+.btn2:hover {
+  transform: scale(0.8);
+}
+.btn1:hover {
+  transform: scale(0.8);
+}
+.btn2 {
+  border: 1px solid #007db6;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #007db6;
+  transition: 0.8s;
+}
+.anons1 {
+  transition: 0.8s;
+}
+.anons1:hover {
+  transform: scale(0.8);
+}
+@media(max-width:1100px){
+  .card1{
+    padding: 20px;
+  }
+  .card1 h2{
+    font-size: 30px;
+  }
+  .card1 p{
+    font-size: 16px;
+  }
+}
+@media(max-width:280px){
+  .kurs1 h1{
+    font-size: 18px;
+  }
+}
+@media(max-width:1380px){
+  .di1{
+    padding: 10px;
+  }
+  .di1 h1{
+    font-size: 18px;
+  }
+}
